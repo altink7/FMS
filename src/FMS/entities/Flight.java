@@ -54,11 +54,10 @@ public abstract class Flight implements Comparable<Flight> {
 		}
 
 	private final String ensureNonNullNonEmpty(String str) throws IllegalArgumentException{
-		if(str == null || str.isEmpty()){
-			throw new IllegalArgumentException();
-		}else{
+		if(str != null &&! str.isEmpty()){
 			return str;
 		}
+		throw new IllegalArgumentException();
 	}
 
 
