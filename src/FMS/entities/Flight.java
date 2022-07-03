@@ -138,12 +138,22 @@ public abstract class Flight implements Comparable<Flight> {
 		return crew.size() > 0;
 	}
 	public boolean board(Passenger p){
-		add(p);
-		return true;
+		if(readyToBoard()&&passengers.contains(p) && p.getBoarded() == null) {
+			p.setBoarded(this);
+			return true;
+		}
+		return false;
 	}
 
 	public boolean boardingCompleted(){
-		return passengers.size() > 0;
+		if(passengers.size()>0) {
+			for (Passenger p : passengers) {
+				if (!this.equals(p.getBoarded()))
+					return false;
+			}
+			return true;
+		}
+		return false;
 	}
 
 	@Override
