@@ -53,7 +53,7 @@ public abstract class Flight implements Comparable<Flight> {
 		this.passengers = other.passengers;
 		}
 
-	private final String ensureNonNullNonEmpty(String str) throws IllegalArgumentException{
+	private String ensureNonNullNonEmpty(String str) throws IllegalArgumentException{
 		if(str != null &&! str.isEmpty()){
 			return str;
 		}
