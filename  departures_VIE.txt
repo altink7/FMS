@@ -1,0 +1,12 @@
+OS381 from VIE (2018-05-25 06:30 (UTC)) to ARN (2018-05-25 09:13 (UTC)) with a crew of 0 and 4 passengers <Boeing 737 175> boarding completed 
+[]
+[JACKSON John (US00004711) [ ], DOE Jane (AT00000815) [ ], RILEY Rip (ISIS666) [ ], DOE Jack (UK00000007) [ ]]
+OS001 from VIE (2018-06-23 06:30 (UTC)) to VIE (2018-06-23 08:55 (UTC)) with a crew of 1 and 3 passengers <C4 4> boarding completed 
+[Pilot DOE John (AT00004711)]
+[JACKSON John (US00004711) [ ], DOE Jane (AT00000815) [ ], DOE Jack (UK00000007) [ ]]
+OS006 from VIE (2018-06-25 06:30 (UTC)) to FRA (2018-06-25 08:55 (UTC)) with a crew of 3 and 4 passengers <A3 3> boarding completed 
+[Stewardess KANE Lana (ISIS001), Chef de Cabin TUNT Cheryl (ISIS456), Pilot RILEY Rip (ISIS666)]
+[JACKSON John (US00004711) [ ], DOE John (AT00004711) [ ], DOE Jane (AT00000815) [ ], DOE Jack (UK00000007) [ ]]
+OS502 from VIE (2018-06-28 18:30 (UTC)) to JFK (2018-06-28 19:55 (UTC)) with a crew of 0 and 3 passengers <no vessel> boarding completed 
+[]
+[JACKSON John (US00004711) [ ], DOE Jane (AT00000815) [ ], DOE Jack (UK00000007) [ ]]
